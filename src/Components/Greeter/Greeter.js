@@ -16,7 +16,7 @@ export default function Greeter() {
       <Button
         label="Clear"
         onClick={() => {
-          setName('');
+          setName("");
           setGreeting(null);
         }}
       />
